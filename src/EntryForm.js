@@ -37,24 +37,11 @@ export default class EntryForm extends Component {
    
   };
 
-  textHandler = (event) => {
-    console.log(event.target.value);
-    this.setState({ [event.target.name]: event.target.value });
-    this.textValue = event.target.value;
-    this.email = event.target.value;
-    this.fullname = event.target.value;
-    //   this.address1 = event.target.value;
-    //   this.address2 = event.target.value;
-    //   this.city = event.target.value;
-    //   this.province = event.target.value;
-    //   this.pc = event.target.value;
-  };
+  
 
   submitData = (e) => {
     e.preventDefault();
-    // alert("Form Submited");
-    // console.log(this.state);
-    // console.log(JSON.stringify(this.state));
+    
   };
 
   render() {
@@ -63,13 +50,7 @@ export default class EntryForm extends Component {
       <div className='Border'>
         <h1>Data Entry Form</h1>
         <form onSubmit={this.submitData}>
-          {/* <p>Email: {this.state.email} </p>
-          <p>Full name: {this.state.fullname} </p>
-          <p>Address1: {this.state.address1} </p>
-          <p>City: {this.state.city} </p>
-          <p>Province: {this.state.province} </p>
-          <p>Postal Code: {this.state.pc} </p> */}
-
+          
           <p>Email</p>
           <input
             name="email"
