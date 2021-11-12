@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+/* Entry form */
+.Border {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+input {
+  /* border-radius: 5%; */
+  border: 1px solid gray;
+}
+
+.Checkbox {
+  margin-top: 2px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +51,7 @@
   to {
     transform: rotate(360deg);
   }
+
+  
+  
 }
